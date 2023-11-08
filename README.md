@@ -249,6 +249,8 @@ ik heb de kleurcontrast verbeterd op de website
 video niet op auto play zodat de gebuikt niet overpikkeld kan raken of iemand 
 die blind is in de war kan raken.
 ook een dark en light mode toegevoegd voor slechtziende. 
+er was goed met de alt tab te navigeren door mij site
+buttons werken vrij goed, contrast is verbeterd
 
  
 
