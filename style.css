@@ -1,0 +1,817 @@
+html {
+    --wit: #ffffff;
+    --zwart: #000000;
+    --gray: #e0e1e2;
+    --fender40: #d8000b;
+    --invert: invert(0);
+}
+
+body.dark {
+    --wit: #202020;
+    --zwart: #ffffff;
+    --gray: #8b8b8b;
+    --invert: invert(1);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+    background: var(--wit);
+    color: var(--zwart);
+}
+
+/*vormgeving voor de header*/
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    height: 100px;
+    padding: 1em;
+
+}
+
+header ul {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    list-style: none;
+}
+
+header img {
+    height: 30px;
+}
+
+header ul img {
+    filter: var(--invert);
+}
+
+header input {
+    width: 100%;
+    height: 30px;
+    font-size: 1em;
+    border-radius: 2em;
+    border: 1px solid var(--gray);
+    color: var(--gray);
+    padding: 8px 0 8px 20px;
+
+}
+
+/* button header */
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+}
+
+/* Hide default HTML checkbox */
+.switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+}
+
+/* The slider */
+.slider {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: var(--gray);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+.slider:before {
+    position: absolute;
+    content: "";
+    height: 25px;
+    width: 25px;
+    left: 2.5px;
+    bottom: 2.5px;
+    background-color: var(--wit);
+    -webkit-transition: .4s;
+    transition: .4s;
+}
+
+input:checked+.slider {
+    background-color: var(--fender40);
+}
+
+input:focus+.slider {
+    box-shadow: 0 0 1px var(--fender40);
+}
+
+input:checked+.slider:before {
+    -webkit-transform: translateX(20px);
+    -ms-transform: translateX(20px);
+    transform: translateX(20px);
+}
+
+/* Rounded sliders */
+.slider.round {
+    border-radius: 34px;
+}
+
+.slider.round:before {
+    border-radius: 50%;
+}
+
+
+/* https://www.w3schools.com/howto/howto_css_switch.asp */
+/*de vormgeving van de header stopt hier*/
+
+/*de vormgeving van de body begint hier*/
+
+.home section:first-child {
+    position: relative;
+}
+
+.home section:first-child img {
+    width: 100%;
+    /* Make sure the image takes up the entire width of its container */
+    display: block;
+    /* Remove extra spacing below the image */
+}
+
+.home section:first-child p {
+    font-size: 0.8em;
+    position: absolute;
+    top: 58%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--wit);
+    text-align: center;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+
+.home section:first-child h1:nth-child(4) {
+    font-size: 2em;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--wit);
+    text-align: center;
+    text-transform: uppercase;
+    white-space: nowrap;
+    font-weight: bold;
+}
+
+.home section:first-child a {
+    font-size: 1em;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: var(--zwart);
+    text-align: center;
+    text-decoration: none;
+    background-color: var(--wit);
+    padding: 10px 20px;
+    border-radius: 2em;
+    font-weight: bold;
+}
+
+.home section:first-child img:nth-child(2) {
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    width: 60%;
+    filter: var(--invert);
+}
+
+
+/*de bovenkant met de bloemen en de auto is nu af*/
+
+.home section:nth-child(2) {
+    margin-top: 4.5em;
+}
+
+
+.home section:nth-child(2) h2:first-child {
+    color: var(--zwart);
+    margin-left: 0.5em;
+    font-size: 1.3em;
+    margin-bottom: 1em;
+    font-weight: bold;
+}
+
+.home section:nth-of-type(2) img {
+    width: 43%;
+    height: 20%;
+    display: inline-block;
+    margin-left: 0.9em;
+}
+
+
+.home section:nth-of-type(2) img:nth-of-type(2) {
+    margin-left: 1em;
+}
+
+.home section:nth-of-type(2) p {
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+
+}
+
+.home section:nth-of-type(2) p:nth-of-type(2) {
+    margin-left: 1em;
+
+}
+
+
+.home section:nth-child(3) {
+    margin-top: 2em;
+}
+
+
+.home section:nth-of-type(3) img {
+    width: 43%;
+    height: 20%;
+    display: inline-block;
+    margin-left: 0.9em;
+}
+
+
+.home section:nth-of-type(3) img:nth-of-type(2) {
+    margin-left: 1em;
+}
+
+.home section:nth-of-type(3) p {
+    display: inline-block;
+    margin-top: 1em;
+    margin-left: 0.8em;
+    font-size: 1em;
+    font-weight: bold;
+}
+
+.home section:nth-of-type(3) p:nth-of-type(2) {
+    margin-left: 5.8em;
+    font-weight: bold;
+}
+
+
+/*de vormgeving voor de collectie stopt hier*/
+
+.home section:nth-of-type(4) {
+    margin-top: 4em;
+    position: relative;
+}
+
+.home section:nth-of-type(4) img {
+    width: 93%;
+    height: 30%;
+    display: block;
+    margin: auto;
+}
+
+
+.home section:nth-of-type(4) p {
+    font-size: 1.2em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+
+    position: absolute;
+    font-weight: bold;
+    top: 65%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.home section:nth-of-type(4) a {
+    font-size: 0.9em;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    font-weight: bold;
+    top: 80%;
+    left: 23%;
+    transform: translate(-50%, -50%);
+    color: white;
+    border-bottom: 2px solid var(--wit);
+}
+
+/*vormgeving voor de auto met shop now stopt hier*/
+
+
+
+.home section:nth-of-type(5) h2 {
+    position: absolute;
+    color: var(--zwart);
+    margin-left: 0.5em;
+    font-size: 1.3em;
+    margin-top: 3.5em;
+    font-weight: bold;
+    flex: 0 0 auto;
+    /* Prevent h2 from participating in flex layout */
+    width: auto;
+    /* Allow h2 to take its natural width */
+}
+
+.home section:nth-of-type(5) img {
+    margin-top: 1em;
+    color: #f9f9f9;
+    margin-left: 0.6em;
+    width: 70%;
+    height: 70%;
+}
+
+.home section:nth-of-type(5) h3 {
+    margin-top: 1.5em;
+    font-weight: bold;
+    margin-left: 1.3em;
+    font-size: 0.8em;
+}
+
+
+.home section:nth-of-type(5) p {
+    margin-top: 0.8em;
+    font-weight: bold;
+    margin-left: 1.3em;
+    font-size: 0.9em;
+}
+
+.home section:nth-of-type(5) p:nth-of-type(2) {
+    margin-top: 1em;
+    margin-left: 1.3em;
+    font-size: 0.8em;
+    color: #666666;
+}
+
+.home section:nth-of-type(5) {
+    display: flex;
+    overflow-x: auto;
+    /* Add horizontal scroll if the content exceeds the width */
+    overflow-y: hidden;
+}
+
+.home section:nth-of-type(5) article {
+    margin-top: 7em;
+    overflow-x: auto;
+    /* Add horizontal scroll if the content exceeds the width */
+    flex: 0 0 auto;
+    /* Allow the articles to shrink if necessary */
+    margin-right: -4em;
+    /* Adjust the margin between articles */
+    width: 100%;
+    /* Set the width of each article to 25% to have four items in a row */
+
+}
+
+
+/*vormgeving voor mijn gitaar silder stopt hier*/
+
+
+.home section:nth-of-type(6) h2 {
+    margin-top: 2em;
+    color: var(--zwart);
+    margin-left: 0.5em;
+    font-size: 1.3em;
+    margin-top: 2em;
+    font-weight: bold;
+    flex: 0 0 auto;
+    /* Prevent h2 from participating in flex layout */
+    width: auto;
+    /* Allow h2 to take its natural width */
+    position: absolute;
+}
+
+.home section:nth-of-type(6) img {
+    margin-top: 2em;
+    color: #f9f9f9;
+    margin-left: 0.6em;
+    width: 70%;
+    height: 70%;
+}
+
+.home section:nth-of-type(6) p:first-of-type {
+    font-size: 0.9em;
+    color: #3f3f3f;
+    margin-top: 1em;
+    margin-left: 0.7em;
+    font-weight: bold;
+
+}
+
+.home section:nth-of-type(6) p:nth-of-type(2) {
+    margin-top: 0.5em;
+    font-size: 1em;
+    margin-left: 0.55em;
+    margin-bottom: 0.5em;
+    font-weight: bold;
+}
+
+.home section:nth-of-type(6) a {
+    font-size: 0.9em;
+    margin-left: 0.55em;
+    font-weight: bold;
+    color: var(--zwart);
+    border-bottom: 1px solid var(--zwart);
+
+}
+
+.home section:nth-of-type(6) {
+    margin-top: 2em;
+    display: flex;
+    overflow-x: auto;
+    /* Add horizontal scroll if the content exceeds the width */
+    overflow-y: hidden;
+}
+
+.home section:nth-of-type(6) article {
+    margin-top: 4em;
+    overflow-x: auto;
+    /* Add horizontal scroll if the content exceeds the width */
+    flex: 0 0 auto;
+    /* Allow the articles to shrink if necessary */
+    margin-right: -4em;
+    /* Adjust the margin between articles */
+    width: 100%;
+    display: inline-block;
+}
+
+
+
+/*vormgeving voor de artikelen stopt hier*/
+
+.home section:nth-of-type(7) h2 {
+    position: absolute;
+    color: var(--zwart);
+    margin-left: 0.5em;
+    font-size: 1.3em;
+    margin-top: 5em;
+    font-weight: bold;
+    flex: 0 0 auto;
+    /* Prevent h2 from participating in flex layout */
+    width: auto;
+    /* Allow h2 to take its natural width */
+}
+
+.home section:nth-of-type(7) img {
+    margin-top: 1em;
+    color: #f9f9f9;
+    margin-left: 0.6em;
+    width: 70%;
+    height: 70%;
+}
+
+.home section:nth-of-type(7) h3 {
+    margin-top: 1.5em;
+    font-weight: bold;
+    margin-left: 1.3em;
+    font-size: 0.8em;
+}
+
+
+.home section:nth-of-type(7) p {
+    margin-top: 0.8em;
+    font-weight: bold;
+    margin-left: 1.3em;
+    font-size: 0.9em;
+}
+
+.home section:nth-of-type(7) p:nth-of-type(2) {
+    margin-top: 1em;
+    margin-left: 1.3em;
+    font-size: 0.8em;
+    color: #666666;
+}
+
+.home section:nth-of-type(7) {
+    display: flex;
+    overflow-x: auto;
+    /* Add horizontal scroll if the content exceeds the width */
+    overflow-y: hidden;
+}
+
+.home section:nth-of-type(7) article {
+    margin-top: 9em;
+    overflow-x: auto;
+    /* Add horizontal scroll if the content exceeds the width */
+    flex: 0 0 auto;
+    /* Allow the articles to shrink if necessary */
+    margin-right: -4em;
+    /* Adjust the margin between articles */
+    width: 100%;
+    /* Set the width of each article to 25% to have four items in a row */
+
+}
+
+
+footer {
+    margin-top: 4em;
+    background: black;
+    color: white;
+    padding-bottom: 2em;
+}
+
+
+footer img {
+    width: 40%;
+    height: 50%;
+    margin-left: 0.5em;
+}
+
+
+footer h3 {
+    color: white;
+    font-size: 2em;
+    font-weight: bold;
+    margin-left: 0.5em;
+    margin-top: 0.7em;
+}
+
+footer p {
+    font-size: 1em;
+    color: #757575;
+    margin-left: 1em;
+    margin-top: 0.5em;
+    font-weight: bold;
+    margin-bottom: 3em;
+
+}
+
+
+footer a:first-of-type {
+    color: white;
+    text-decoration: none;
+    font-size: 1em;
+    margin: 1em;
+}
+
+footer div {
+    display: flex;
+    border: 1px solid var(--gray);
+    margin: 1em;
+    justify-content: space-between;
+    align-content: center;
+}
+
+footer button {
+    font-size: 1em;
+    background-color: #ff4848;
+    color: white;
+    border: none;
+    font-weight: bold;
+    padding: .5em 1em;
+
+}
+
+footer h4 {
+    color: var(--wit);
+    display: inline;
+    margin-left: 1em;
+    line-height: 10;
+}
+
+footer h4:first-of-type {
+    margin-right: 7em;
+}
+
+footer ul {
+    display: inline-block;
+    list-style: none;
+    margin-top: -4em;
+}
+
+footer ul li {
+    color: #cecece;
+    padding-top: 1em;
+}
+
+footer ul:first-of-type {
+    margin-left: 1em;
+    margin-right: 5em;
+}
+
+
+
+/*vormgeving voor pagina 2*/
+
+.pagina2 section:first-child h1 {
+    font-weight: bold;
+    font-size: 1.5em;
+    margin-left: 0.7em;
+    margin-top: 1.5em;
+}
+
+.pagina2 section:first-child p {
+    font-size: 0.8em;
+    color: var(--zwart);
+    margin-left: 1.3em;
+    margin-top: 0.5em;
+    text-align: left;
+}
+
+
+.pagina2 section:first-child img {
+    width: 90%;
+    height: 60%;
+    margin-left: 1em;
+    margin-top: 2em;
+}
+
+.kleur {
+    margin-left: 1em;
+}
+
+.kleur h2 {
+    margin-top: 2em;
+    margin-bottom: 0.2em;
+}
+
+.kleur p {
+    margin-bottom: 0.5em;
+}
+
+.kleur button {
+    color: var(--wit);
+    border-radius: 50%;
+    font-size: 0;
+    width: 25px;
+    height: 25px;
+}
+
+.kleur button:focus {
+    border: solid var(--zwart) 3px;
+}
+
+#blauw {
+    background: #7ee0aa;
+}
+
+#groen {
+    background: #b9ddf9;
+}
+
+
+.prijs h2 {
+    margin-left: 0.7em;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+}
+
+.prijs p {
+    font-size: 0.9em;
+    margin-left: 1em;
+    margin-right: 1em;
+    margin-bottom: 1em;
+    color: var(--zwart);
+}
+
+
+.features h2 {
+    margin: 2em 1.5em 1em .7em;
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid var(--gray);
+    width: 90%;
+}
+
+
+.features ul {
+    margin-left: 2em;
+}
+
+.features li {
+    color: var(--zwart);
+    font-size: 0.9em;
+    margin-bottom: 0.9em;
+}
+
+.high {
+    padding: 1em;
+}
+
+.high h2 {
+    padding-bottom: 0.5em;
+    border-bottom: 2px solid var(--gray);
+    width: 90%;
+
+}
+
+.high h3 {
+    font-size: 1em;
+    font-weight: 800;
+    text-align: center;
+    padding: 1em 1em 2em 1em
+}
+
+.high p {
+    padding: .5em;
+    line-height: 1.5;
+}
+
+.high section {
+    padding: 1em;
+}
+
+.high section img {
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+
+.gear h3 {
+    position: absolute;
+    color: var(--zwart);
+    margin-left: 0.5em;
+    font-size: 1.3em;
+    margin-top: 3.5em;
+    font-weight: bold;
+    flex: 0 0 auto;
+    /* Prevent h2 from participating in flex layout */
+    width: auto;
+    /* Allow h2 to take its natural width */
+}
+
+.gear img {
+    margin-top: 1em;
+    color: #f9f9f9;
+    margin-left: 0.6em;
+    width: 70%;
+    height: 70%;
+}
+
+
+.gear p {
+    margin-top: 0.8em;
+    font-weight: bold;
+    margin-left: 1.3em;
+    font-size: 0.9em;
+}
+
+
+
+.gear section {
+    display: flex;
+    overflow-x: auto;
+    /* Add horizontal scroll if the content exceeds the width */
+    overflow-y: hidden;
+}
+
+.gear article {
+    margin-top: 7em;
+    overflow-x: auto;
+    /* Add horizontal scroll if the content exceeds the width */
+    flex: 0 0 auto;
+    /* Allow the articles to shrink if necessary */
+    margin-right: -4em;
+    /* Adjust the margin between articles */
+    width: 100%;
+    /* Set the width of each article to 25% to have four items in a row */
+
+}
+
+video {
+    width: 90%;
+    padding: 1em;
+    margin: 0;
+}
+
+
+/* //hamburgermenu */
+.hamburger {
+    display: none;
+    position: absolute;
+    padding: 2em;
+    top: 55px;
+    left: 0;
+    z-index: 100;
+    width: 100vw;
+    height: 100vh;
+    background: var(--wit);
+    color: var(--zwart);
+}
+
+.hamburger ul {
+    list-style: none;
+    padding: 1em .5em;
+}
+
+.hamburger ul a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 900;
+    color: var(--zwart);
+    line-height: 2.5;
+
+}
+
+.hamburger img {
+    height: 30px;
+}
