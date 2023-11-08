@@ -113,6 +113,8 @@ voor de rest is de site wel goed, er is een hoog contrast en de content is goed.
   Op dit punt ging ik dus veranderen van website dit was een lastige keuze maar 
   bleek uiteindelijk wel de goede te zijn. Hierdoor moest ik opnieuw beginnen 
   en ben ik hier begonen met het maken van een header en andere componetenten van de site
+  
+![headerscreenshot](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/31fb4e07-2b0e-4ce6-837c-952444c5b67c)
 
 
   ### Agenda voor meeting
