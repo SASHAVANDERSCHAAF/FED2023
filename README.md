@@ -2,6 +2,7 @@
 Markdown is een simpele manier om HTML te schrijven.  
 Markdown cheat cheet: [Hulp bij het schrijven van Markdown](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet).
 
+
 Nb. De standaardstructuur en de spartaanse opmaak van de README.md zijn helemaal prima. Het gaat om de inhoud van je procesverslag. Besteedt de tijd voor pracht en praal aan je website.
 
 Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard open zetten. Fijn om dat steeds voor de relevante stuk(ken) te doen.
@@ -41,12 +42,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   link naar de website die je gaat namaken óf de naam/omschrijving van je eigen ontwerp
 
   #### Screenshot(s) van de eerste pagina (small screen): 
+  ![www fender com_en-NL_start(iPhone SE) (3)](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/58531865-6062-490d-bbed-2fc33d3c0aa3)
   fender home pagina
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+ 
 
   #### Screenshot(s) van de tweede pagina (small screen):
-  detail pagina van 1 van de gitaren 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="omschrijving van de pagina">
+  ![www fender com_en-NL_electric-guitars_stratocaster_vintera-ii-60s-stratocaster_0149020300 html(iPhone SE)](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/6c0fae70-e665-4e7f-ac64-799a0ac5ce2c)
+ detail pagina van 1 van de gitaren 
+  
  
 </details>
 
@@ -90,13 +93,16 @@ voor de rest is de site wel goed, er is een hoog contrast en de content is goed.
   <summary>uitwerken na afloop 3<sup>e</sup> werkgroep</summary>
 
   ### de hele pagina: 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van de hele pagina">
+  ![www fender com_en-NL_start(iPhone SE) (3)](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/f586cc3a-b4a3-417f-ae31-f24ac3f8b214)
+
 
   ### dynamisch deel (bijv menu): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van een dynamisch deel">
+ ![screenshot12](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/a698d6b2-6b4c-4596-9a31-dfbec74c7f59)
+
 
   ### wellicht nog een dynamisch deel (bijv filter): 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="breakdown van nog een dynamisch deel">
+ ![screenshot13](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/ad6f6370-562b-4016-8cbf-0f27fe8467a8)
+
 
 </details>
 
@@ -114,7 +120,11 @@ voor de rest is de site wel goed, er is een hoog contrast en de content is goed.
   bleek uiteindelijk wel de goede te zijn. Hierdoor moest ik opnieuw beginnen 
   en ben ik hier begonen met het maken van een header en andere componetenten van de site
   
+  
 ![headerscreenshot](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/31fb4e07-2b0e-4ce6-837c-952444c5b67c)
+![screen2](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/2075ac69-6932-4ddf-84c9-7cef8d71cde9)
+
+![screen14](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/9e939937-d64e-4f1c-b381-69e899fb706f)
 
 
   ### Agenda voor meeting
@@ -153,7 +163,9 @@ voor de rest is de site wel goed, er is een hoog contrast en de content is goed.
   ik was begonnen aan mijn 2de pagina maar had door nog ook niet erg veel van af.
   Dit kwam grotendeels door mijn ingewikkeld thuissituatie en niet genoeg motivatie 
   gedurende de les. Echter heb ik wel progressie kunnen maken.
+  
 
+  ![screen15](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/7173cd71-7bcd-448c-b7ec-5875319ad8be)
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -165,7 +177,11 @@ voor de rest is de site wel goed, er is een hoog contrast en de content is goed.
 
   ### Verslag van meeting
   Ik vond het zelf erg ingewikkeld om aan de image sliders te werken. Het horizontale scollen vond ik zelf moeilijk om te maken. Dit kwam vooral doordat het scale van de 
-images niet helmaal lukte. Uiteindelijk ben ik er samen met de stundent assisent uitegkomen en zijn we erg ver gekomen
+images niet helmaal lukte. Uiteindelijk ben ik er samen met de stundent assisent uitegkomen en zijn we erg ver gekomen. daarna ben ik de footer gaan maken.
+![screen3](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/e05653ae-eecb-40b2-8561-2056d6da84e6)
+![screen5](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/c7e39496-5adc-4ffc-9b9a-35f0cc8688c3)
+
+
 
   - aan het werk gaan
   - keuzes leren maken
@@ -201,6 +217,14 @@ images niet helmaal lukte. Uiteindelijk ben ik er samen met de stundent assisent
   - pagina 1 agemaakt
   - pagina 2 afgemaakt
   - js toegevoegd
+![screen6](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/47b15b29-fe51-4200-8881-21a67568f96d)
+![screen7](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/6a6165fd-66de-417f-9ed8-2d012d455fa7)
+![screen8](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/2fcd0169-a13f-42d8-bf5c-f33c8fc53b8a)
+![screen9](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/a62e1aa1-b4d2-4dfe-a28a-26a29519678f)
+![screen 11](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/1412f06c-fea0-4e85-9378-2e2a03a72635)
+
+
+
 </details>
 
 ## Toegankelijkheidstest en aanvullingen voor herkansing 2/2 (week 5)
