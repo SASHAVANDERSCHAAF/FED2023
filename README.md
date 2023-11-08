@@ -166,6 +166,7 @@ voor de rest is de site wel goed, er is een hoog contrast en de content is goed.
   
 
   ![screen15](https://github.com/SASHAVANDERSCHAAF/FED2023/assets/144615532/7173cd71-7bcd-448c-b7ec-5875319ad8be)
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
